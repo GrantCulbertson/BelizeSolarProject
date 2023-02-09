@@ -11,17 +11,16 @@
 all: setup putHTML
 
 setup:
-	@echo "Setting up..."
+	# Setting up web directory
+
 	-mkdir /var/www/html/BelizeSolarProject/
 
 putHTML:
 	
-	@echo "\n\n"
-	# Copy all the html pages 
+	# Copy all the html pages to web directory
 	cp src/pages/* /var/www/html/BelizeSolarProject -r
 	cp src/styles/* /var/www/html/BelizeSolarProject -r
 	cp src/scripts/* /var/www/html/BelizeSolarProject -r
 
 	@echo "\n\nCurrent contents of your html directory: "
-	@# tree /var/www/html
 	ls -la /var/www/html/
