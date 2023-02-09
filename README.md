@@ -21,8 +21,9 @@ cd BelizeSolarProject
 make 
 ````
 
-
-
+## Mirrors
 [Ricky's version](http://18.117.104.28/BelizeSolarProject/)
-
 ...(please add a link to your webserver running the application)...
+
+
+Built by Richard Alvarez, .............
