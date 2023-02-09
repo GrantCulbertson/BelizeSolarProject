@@ -11,4 +11,6 @@ What your team will do is:
 
 It should be nice looking, and include buttons and/or pull down menus to navigate.
 
+[Ricky's version](http://18.117.104.28/BelizeSolarProject/)
 
+...(please add a link to your webserver running the application)...
