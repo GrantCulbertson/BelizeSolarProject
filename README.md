@@ -1,8 +1,8 @@
 # BelizeSolarProject
 
-Designed and built by Richard Alvarez, (....)
+A website to monitor Solar Data from schools in Belize. 
 
-A website for Belize Solar Data for SCMP 318 Kenyon College
+SCMP 318 Spring 2023 at Kenyon College.
 
 The data is [here](https://docs.google.com/document/d/1jhXcbkrk1JekFlCHPpZr_mavFl_XUg0e9h4HGTEOAKA/edit)
 
@@ -11,6 +11,17 @@ Out team will:
 - a set of sub pages for each school
 
 It should be nice looking, and include buttons and/or pull down menus to navigate.
+
+## Install and run
+To install our project you are required to have apache2 installed and configured. Our site was built to run on AWS infrastructure in the cloud, but it should also work on local development enviroments.
+
+``` 
+git clone git@github.com:GrantCulbertson/BelizeSolarProject.git
+cd BelizeSolarProject
+make 
+````
+
+
 
 [Ricky's version](http://18.117.104.28/BelizeSolarProject/)
 
