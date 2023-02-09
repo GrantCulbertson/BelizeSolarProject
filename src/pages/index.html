@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>HTML5 Example Page</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="HTML5 Example Page">
+  <link rel="stylesheet" href="/assets/css/stylesheet.css?v=1">
+</head>
+<body>
+  <header>
+    <h1>HTML5 Example Page</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="">Home</a></li>
+      <li><a href="">About</a></li>
+      <li><a href="">Contact</a></li>
+    </ul>
+  </nav>
+
+  <article>
+    <h2>This is a headline</h2>
+    <p>
+      This paragraph is nested inside an article. It contains basic tags like <a href="#top">anchors</a>,
+      <strong>strong</strong>, <em>emphasis</em>, and <u>underline</u>.
+      It provides <del>deleted text</del> as well, which often gets replaced with <ins>inserted</ins> text.
+    </p>
+
+    <h3>This is subheadline for more content</h3>
+    <ul>
+      <li>Unordered lists have basic styles</li>
+      <li>They use the circle list style
+        <ul>
+          <li>Nested list item one</li>
+          <li>Nested list item two</li>
+        </ul>
+      </li>
+      <li>Just one more list item</li>
+    </ul>
+    <ol>
+      <li>Ordered lists also have basic styles</li>
+      <li>They use the decimal list style
+        <ul>
+          <li>Nested list item one</li>
+          <li>Nested list item two</li>
+        </ul>
+      </li>
+      <li>Last list item</li>
+    </ol>
+  </article>
+
+  <aside>
+    <h3>This is some advanced content</h3>
+    <figure>
+      <img data-src="/assets/images/image.png"
+           src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
+           width="360" height="120" alt="Description of the first image"/>
+      <figcaption>Caption for the first image</figcaption>
+    </figure>
+
+    <a href="#top">
+      <figure>
+        <img data-src="/assets/images/image2.png"
+             src="data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs="
+             width="360" height="80" alt="Description of the second image"/>
+        <figcaption>Caption for the second image</figcaption>
+      </figure>
+    </a>
+
+    <img alt="Description of a single image without a caption" src="/assets/images/image.webp"/>
+
+    <p>
+      <a class="button" href="#">Anchor button</a><br>
+      <button>Button element</button>
+    </p>
+
+    <blockquote>
+      “Infamous quote”
+      <footer><cite>- Attribution</cite></footer>
+    </blockquote>
+
+    <hr>
+
+    <details>
+      <summary>Expandable title</summary>
+      <p>Revealed content</p>
+    </details>
+    <details>
+      <summary>Another expandable title</summary>
+      <p>More revealed content</p>
+    </details>
+
+    <h4>This is a code example</h4>
+    <pre><code>.some-class {
+  background-color: red;
+}</code></pre>
+  </aside>
+
+  <section>
+    <h2>This is another headline</h2>
+    <div class="some-class">
+      This is a boxed element.
+    </div>
+    <div class="some-class">
+      This is yet another boxed element.
+    </div>
+
+    <h3>This is a table</h3>
+    <table>
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Quantity</th>
+        <th>Price</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td>Cheese fondue</td>
+        <td>1</td>
+        <td>EUR 23</td>
+      </tr>
+      <tr>
+        <td>Pizza</td>
+        <td>10</td>
+        <td>EUR 10.000,00</td>
+      </tr>
+      <tr>
+        <td>Waffles</td>
+        <td>1</td>
+        <td>EUR 14,30</td>
+      </tr>
+      </tbody>
+    </table>
+
+    <h3>And this is a form</h3>
+    <form>
+      <div class="row">
+        <label for="exampleSubject">Subject</label>
+        <input type="text" placeholder="Your subject" id="exampleSubject">
+      </div>
+      <div class="row">
+        <label for="exampleMessage">Message</label>
+        <textarea placeholder="Your message" id="exampleMessage"></textarea>
+      </div>
+      <div class="row">
+        <label>
+          <input type="checkbox" id="exampleConfirmation"><span>Confirmation</span>
+        </label>
+      </div>
+      <input type="submit" value="Submit">
+    </form>
+  </section>
+
+  <footer>
+    Made with <a href="https://html5example.com">html5example.com</a>
+  </footer>
+
+  <script src="/assets/js/scripts.js"></script>
+</body>
+</html>
+
