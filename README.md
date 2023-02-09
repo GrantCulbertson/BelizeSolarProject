@@ -2,13 +2,11 @@
 
 Designed and built by Richard Alvarez, (....)
 
-Website for Belize Solar data for software development and design homework 7
-
-Goal: Create a responsive web page.
+A website for Belize Solar Data for SCMP 318 Kenyon College
 
 The data is [here](https://docs.google.com/document/d/1jhXcbkrk1JekFlCHPpZr_mavFl_XUg0e9h4HGTEOAKA/edit)
 
-What your team will do is:
+Out team will:
 - create a main page, to provide information on the project. 
 - a set of sub pages for each school
 
