@@ -1,6 +1,6 @@
 # BelizeSolarProject
 
-Authors: Richard Alvarez, (....)
+Designed and built by Richard Alvarez, (....)
 
 Website for Belize Solar data for software development and design homework 7
 
