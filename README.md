@@ -1,4 +1,7 @@
 # BelizeSolarProject
+
+Authors: Richard Alvarez, (....)
+
 Website for Belize Solar data for software development and design homework 7
 
 Goal: Create a responsive web page.
