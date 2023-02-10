@@ -1,6 +1,9 @@
 # Make file for BelizeSolarProject
 #
-# Make sure you have the following packages installed
+# Best if you you have the following packages installed
+#	- apache2
+#	- node
+#	- npm
 #
 # Before you run this make file make sure the folder
 # /var/www/html/BelizeSolarProject exists and it's ownership/permissions are correct
