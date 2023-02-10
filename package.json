@@ -1,0 +1,28 @@
+{
+  "name": "belizesolarproject",
+  "version": "0.0.1",
+  "description": "A static html, css, and js website that monitors Solar Data from Belize.",
+  "main": "scripts/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GrantCulbertson/BelizeSolarProject.git"
+  },
+  "keywords": [
+    "Belize",
+    "solar",
+    "power",
+    "kenyon"
+  ],
+  "author": "SCMP 318 Kenyon College",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GrantCulbertson/BelizeSolarProject/issues"
+  },
+  "homepage": "https://github.com/GrantCulbertson/BelizeSolarProject#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.0-alpha1"
+  }
+}
