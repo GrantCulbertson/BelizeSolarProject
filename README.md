@@ -7,7 +7,7 @@ SCMP 318 Spring 2023 at Kenyon College.
 The data is [here](https://docs.google.com/document/d/1jhXcbkrk1JekFlCHPpZr_mavFl_XUg0e9h4HGTEOAKA/edit)
 
 Out team will:
-- create a main page, to provide information on the project. 
+- create a main page to provide information on the project. 
 - a set of sub pages for each school
 
 It should be nice looking, and include buttons and/or pull down menus to navigate.
