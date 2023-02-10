@@ -22,7 +22,7 @@ cd BelizeSolarProject
 
 sudo mkdir /var/www/html/BelizeSolarProject/
 
-sudo chown ubuntu /var/www/html/BelizeSolarProject/ , Ubuntu can be replaced with whatever your username is if it is different.
+sudo chown ubuntu /var/www/html/BelizeSolarProject/ # ubuntu can be replaced with your username.
 
 make 
 ````
