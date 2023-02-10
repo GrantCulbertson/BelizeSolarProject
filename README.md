@@ -17,9 +17,13 @@ Installing our project requires apache2 to be installed and configured. Our site
 
 ``` 
 git clone git@github.com:GrantCulbertson/BelizeSolarProject.git
+
 cd BelizeSolarProject
+
 sudo mkdir /var/www/html/BelizeSolarProject/
+
 sudo chown ubuntu /var/www/html/BelizeSolarProject/ , Ubuntu can be replaced with whatever your username is if it is different.
+
 make 
 ````
 
