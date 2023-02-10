@@ -15,18 +15,25 @@
 
 .DEFAULT_TARGET: all
 
-all: setup putHTML
+all: setup putBootstrap putHTML
 
 setup:
 	# Setting up web directory
-	-mkdir /var/www/html/BelizeSolarProject/
+	-mkdir /var/www/html/BelizeSolarProject
+	-mkdir /var/www/html/BelizeSolarProject/styles
+	-mkdir /var/www/html/BelizeSolarProject/scripts
+
+putBootstrap:
+	# moving over latest bootstrap files into web directory
+	-mkdir /var/www/html/BelizeSolarProject/styles/bootstrap
+	cp node_modules/bootstrap/dist/css/* /var/www/html/BelizeSolarProject/styles/bootstrap/ -r
 
 putHTML:
 	
 	# Copy all the html pages to web directory
-	cp src/pages/* /var/www/html/BelizeSolarProject -r
-	cp src/styles/* /var/www/html/BelizeSolarProject -r
-	cp src/scripts/* /var/www/html/BelizeSolarProject -r
+	cp src/pages/* /var/www/html/BelizeSolarProject/ -r
+	cp src/styles/* /var/www/html/BelizeSolarProject/styles/ -r
+	cp src/scripts/* /var/www/html/BelizeSolarProject/scripts/ -r
 
 	@echo "\n\nCurrent contents of your html directory: "
 	ls -la /var/www/html/
