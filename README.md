@@ -13,7 +13,7 @@ Out team will:
 It should be nice looking, and include buttons and/or pull down menus to navigate.
 
 ## Install and run
-Install our project requires apache2 to be installed and configured. Our site was built to run on AWS infrastructure in the cloud, but it should also work on local development enviroments.
+Installing our project requires apache2 to be installed and configured. Our site was built to run on AWS infrastructure in the cloud, but it should also work on local development enviroments.
 
 ``` 
 git clone git@github.com:GrantCulbertson/BelizeSolarProject.git
