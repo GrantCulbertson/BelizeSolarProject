@@ -10,7 +10,7 @@
 # 
 # or you could also just run make setup...
 #
-# Also if you want nicer formatted fille tree output in your terminal, use:
+# Also if you want nicer formatted file tree output in your terminal, use:
 # $ sudo apt install tree
 #
 # Later we will add some routines for some fancy stuff with our styles, babel for js, and some other fancy NPM shit.

@@ -34,3 +34,5 @@ make
 
 [Isaac's version](http://3.86.88.80/BelizeSolarProject/)
 
+[Sam's version](http://34.207.91.122/BelizeSolarProject)
+
