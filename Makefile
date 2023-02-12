@@ -29,7 +29,9 @@ setup:
 putBootstrap:
 	# moving over latest bootstrap files into web directory
 	-mkdir /var/www/html/BelizeSolarProject/styles/bootstrap
+	-mkdir /var/www/html/BelizeSolarProject/scripts/bootstrap
 	cp node_modules/bootstrap/dist/css/* /var/www/html/BelizeSolarProject/styles/bootstrap/ -r
+	cp node_modules/bootstrap/dist/js/* /var/www/html/BelizeSolarProject/scripts/bootstrap/ -r
 
 putHTML:
 	
@@ -40,3 +42,6 @@ putHTML:
 
 	@echo "\n\nCurrent contents of your html directory: "
 	ls -la /var/www/html/
+
+clean:
+	-rm -dR /var/www/html/BelizeSolarProject
