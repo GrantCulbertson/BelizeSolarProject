@@ -8,6 +8,9 @@ The data is [here](https://docs.google.com/document/d/1jhXcbkrk1JekFlCHPpZr_mavF
 
 Out team will:
 - create a main page to provide information on the project. 
+  - a search panel to look through all the different school's subpages
+  - an overview of the project
+  - overall metrics on the entire system
 - a set of sub pages for each school
 
 It should be nice looking, and include buttons and/or pull down menus to navigate.
