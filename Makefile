@@ -17,7 +17,7 @@
 
 .DEFAULT_TARGET: all
 
-all: clean setup putBootstrap putHTML
+all: clean setup putBootstrap putSrc
 
 setup:
 	# Setting up web directory
@@ -27,13 +27,13 @@ setup:
 	-mkdir /var/www/html/BelizeSolarProject/scripts/bootstrap
 	-mkdir /var/www/html/BelizeSolarProject/styles/bootstrap
 
-putBootstrap:
+putBootstrap: node_modules/*
 	# moving over latest bootstrap files into web directory
 	cp node_modules/bootstrap/dist/css/* /var/www/html/BelizeSolarProject/styles/bootstrap/ -r
 	cp node_modules/@popperjs/core/dist/cjs/* /var/www/html/BelizeSolarProject/scripts/bootstrap/ -r
 	cp node_modules/bootstrap/dist/js/* /var/www/html/BelizeSolarProject/scripts/bootstrap/ -r
 
-putSrc:
+putSrc: src/*
 	
 	# Copy all the html pages to web directory
 	cp src/pages/* /var/www/html/BelizeSolarProject/ -r
