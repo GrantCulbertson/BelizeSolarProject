@@ -15,7 +15,7 @@
 #
 # Later we will add some routines for some fancy stuff with our styles, babel for js, and some other fancy NPM shit.
 
-default: update 
+default: all 
 
 all: clean setup install installBootstrap
 
