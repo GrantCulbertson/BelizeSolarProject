@@ -15,9 +15,9 @@
 #
 # Later we will add some routines for some fancy stuff with our styles, babel for js, and some other fancy NPM shit.
 
-.DEFAULT_TARGET: all
+default: update 
 
-all: clean setup putBootstrap putSrc
+all: clean setup install installBootstrap
 
 setup:
 	# Setting up web directory
@@ -27,13 +27,13 @@ setup:
 	-mkdir /var/www/html/BelizeSolarProject/scripts/bootstrap
 	-mkdir /var/www/html/BelizeSolarProject/styles/bootstrap
 
-putBootstrap: node_modules/*
+installBootstrap: node_modules/*
 	# moving over latest bootstrap files into web directory
 	cp node_modules/bootstrap/dist/css/* /var/www/html/BelizeSolarProject/styles/bootstrap/ -r
 	cp node_modules/@popperjs/core/dist/cjs/* /var/www/html/BelizeSolarProject/scripts/bootstrap/ -r
 	cp node_modules/bootstrap/dist/js/* /var/www/html/BelizeSolarProject/scripts/bootstrap/ -r
 
-putSrc: src/*
+install: src/*
 	
 	# Copy all the html pages to web directory
 	cp src/pages/* /var/www/html/BelizeSolarProject/ -r
@@ -43,7 +43,11 @@ putSrc: src/*
 	@echo "\n\nCurrent contents of your project directory: "
 	ls -la /var/www/html/BelizeSolarProject/
 
-update: putSrc 
+update:
+	#Copy all the html pages to web directory
+	cp src/pages/* /var/www/html/BelizeSolarProject/ -r
+	cp src/styles/* /var/www/html/BelizeSolarProject/styles/ -r
+	cp src/scripts/* /var/www/html/BelizeSolarProject/scripts/ -r
 
 clean:
 	-rm -dR /var/www/html/BelizeSolarProject
