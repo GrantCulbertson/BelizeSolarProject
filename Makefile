@@ -21,6 +21,7 @@ all: clean setup install installBootstrap
 
 setup:
 	# Setting up web directory
+	-npm install
 	-mkdir /var/www/html/BelizeSolarProject
 	-mkdir /var/www/html/BelizeSolarProject/styles
 	-mkdir /var/www/html/BelizeSolarProject/scripts
