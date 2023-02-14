@@ -4,7 +4,10 @@ A website to monitor Solar Data from schools in Belize.
 
 SCMP 318 Spring 2023 at Kenyon College.
 
-The data is [here](https://docs.google.com/document/d/1jhXcbkrk1JekFlCHPpZr_mavFl_XUg0e9h4HGTEOAKA/edit)
+The graphics are [here](https://docs.google.com/document/d/1jhXcbkrk1JekFlCHPpZr_mavFl_XUg0e9h4HGTEOAKA/edit)
+
+The data is [here](https://docs.google.com/document/d/1pqFQTzzB-4UMoq2QJ0riP21jfa7wyFhNyYf97Hwgo0Y/edit)
+
 
 Out team will:
 - create a main page to provide information on the project. 
