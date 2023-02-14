@@ -1,0 +1,218 @@
+newschool school1
+Ambergris Caye Elementary School
+Jovani Grajalez
+670-6692
+jovanig@aces.edu.BX
+Eight panels, two blue inverters
+1 working 
+
+newschool school2
+
+New Horizon school
+Solar
+20 panels five inverters
+Elizabeth Sansorez
+622-7220
+Newhorizonsanpedro@gmail.com
+
+newschool school3
+
+San Pedro high school
+Solar
+Eight panels, two blue boxes
+One bad fan, Replaced with spare we bought
+Victor Ack
++501 607-1501
+Vack@sphs.edu.bz
+Martin Santos
+630-0935
+Sysadmin@sphs.edu.bz
+
+newschool school4
+
+Faith primary school
+Solar
+2018
+LAVERNE Flowers
+661-8168
+Lavernflower66@gmail.com
+Six panels, one blue inverter
+$1300/ year savings
+322
+Shelan Humes
+shelanhumes@gmail.com
+faithnazcyo@gmail.com
+
+newschool school5
+
+Sacred Heart College
+Solar working
+2019
+6 panels, 2 blue invertors
+Ravey Smith engineer
+670-6501
+raveysmith@gmail.com
+
+Federico Rosado
+federico@shc.edu.bz
+
+newschool school6
+
+United Pentecostal school (no pix?)
+San Antonio
+Solar
+
+Arcelito Mai
+661-8106
+maitanah@yahoo.com
+
+newschool school7
+
+Sarteneja Nazarene primary school
+Solar down
+6 panels up
+Antonino Rivero
+629-2491
+Antoninoeusebiorivero@gmail.com
+
+Mateo Gongora
+mateo72gongora@gmail.com
+602-7707
+Converter damaged by water, leak in the roof. It was thrown away
+6 230 W panels
+The wires are exposed on the roof, should be put in conduit
+
+Send movie
+
+newschool school8
+
+Kings College
+Solar down
+3 panels up, 1 broken
+Pedro Reyes
+662-8181
+Prete747@gmail.com
+
+Hayyim Torres
+hayyimtorres85@gmail.com
+4 panels in parallel , one smashed
+96 students,
+Grade 9-12
+1000w 24v $100 inverter
+Old plug , needs to be replaced
+Inverter seemed to work
+
+
+newschool school9
+
+Light of the valley
+Solar down
+4 panels up
+
+Ms. Pascual
+Schoolleader@lotvbs.edu.bz
+606-5397
+200 students, pre-8
+4 panels
+2019
+Blue inverter
+2.0 Amps from panels, 69v
+Bills $90, was $30
+Not working, inverter reading 0 watts when power coming in
+Took inverter , unsuccessful in repairing in the field
+Weird red error on screen
+
+
+newschool school10
+
+Corazol Methodist School
+Solar down
+6 panels up
+Celenie Rhaburn
+620-7862
+Cormethsch@gmail.com
+
+Bad blue inverter. Screen in setup mode, and screen battery cell dead
+6 Panels
+Read 2a per panel, cloudy
+
+
+newschool school11
+
+Pueblo Viejo
+Solar up
+6 panels up
+2018
+Off grid, 6 panels
+Steven Sho
+140 students
+
+System working, battery replaced in 2022
+
+newschool school12
+
+Toledo Christian Academy
+Solar down
+4 panels up
+Charleston Fisher
+637-4812
+tcaprincipal7@gmail.com
+Powerjack inverter
+Bad fan making noise, but worked.
+We took the inverter and replaced the fan, and sent it back
+Power monitor working
+
+
+newschool school13
+
+Belmopan Baptist
+Solar up
+4 panels up
+2018
+4 panels
+Blue inverter
+Jerry Richards
+614-7917
+jerry.roberts@baptisthigh.org
+Lionel Rodriguez
+lionheartbze@hotmail.com
+
+newschool school14
+
+Alvin young high school
+Solar down
+4 panels up
+Geraldine Herbert
+66310725
+Principal@alynhs.edu.bz
+671-8382
+Four panels, 3.8 A output on a cloudy day
+
+newschool school15
+
+Victorious believers Nazarene primary school
+Solar down
+3 panels up, 3 down
+Amilcar
+608-2424
+24 volts
+Neither inverter is operational
+The top inverter is not getting any power from its panels.
+The bottom one is getting 28v.
+5 amps
+solar router unplugged, we got it back up
+One power sensor not working, c4d2 We took it.
+
+newschool school16
+
+Mount Carmel high school
+Solar up
+Anselma Rosado principal
+650-5783
+Marcos Kotch
+623-650
+Kotchmarcos@gmail.com
+572 students
+Six panels, two 1000 watt blue inverters
+Both working, solar needed to be fixed
+Also got the limiter working correctly
