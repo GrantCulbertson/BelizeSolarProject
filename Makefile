@@ -30,7 +30,6 @@ setup:
 installBootstrap: node_modules/*
 	# npm install 
 	# moving over latest bootstrap files into web directory
-	cp public/* /var/www/html/BelizeSolarProject/public/images/ -r
 	cp node_modules/bootstrap/dist/css/* /var/www/html/BelizeSolarProject/styles/bootstrap/ -r
 	cp node_modules/@popperjs/core/dist/cjs/* /var/www/html/BelizeSolarProject/scripts/bootstrap/ -r
 	cp node_modules/bootstrap/dist/js/* /var/www/html/BelizeSolarProject/scripts/bootstrap/ -r
@@ -38,6 +37,7 @@ installBootstrap: node_modules/*
 install: public/* src/*
 	
 	# Copy all the html pages to web directory
+	cp public/* /var/www/html/BelizeSolarProject/public/ -r
 	cp src/pages/* /var/www/html/BelizeSolarProject/ -r
 	cp src/styles/* /var/www/html/BelizeSolarProject/styles/ -r
 	cp src/scripts/* /var/www/html/BelizeSolarProject/scripts/ -r
