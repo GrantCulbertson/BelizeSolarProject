@@ -23,24 +23,25 @@ setup:
 	# Setting up web directory
 	-npm install
 	-mkdir /var/www/html/BelizeSolarProject
-	-mkdir /var/www/html/BelizeSolarProject/styles
-	-mkdir /var/www/html/BelizeSolarProject/scripts
-	-mkdir /var/www/html/BelizeSolarProject/scripts/bootstrap
-	-mkdir /var/www/html/BelizeSolarProject/styles/bootstrap
+	-mkdir /var/www/html/BelizeSolarProject/public/images -p
+	-mkdir /var/www/html/BelizeSolarProject/scripts/bootstrap -p
+	-mkdir /var/www/html/BelizeSolarProject/styles/bootstrap -p
 
 installBootstrap: node_modules/*
 	# npm install 
 	# moving over latest bootstrap files into web directory
+	cp public/* /var/www/html/BelizeSolarProject/public/images/ -r
 	cp node_modules/bootstrap/dist/css/* /var/www/html/BelizeSolarProject/styles/bootstrap/ -r
 	cp node_modules/@popperjs/core/dist/cjs/* /var/www/html/BelizeSolarProject/scripts/bootstrap/ -r
 	cp node_modules/bootstrap/dist/js/* /var/www/html/BelizeSolarProject/scripts/bootstrap/ -r
 
-install: src/*
+install: public/* src/*
 	
 	# Copy all the html pages to web directory
 	cp src/pages/* /var/www/html/BelizeSolarProject/ -r
 	cp src/styles/* /var/www/html/BelizeSolarProject/styles/ -r
 	cp src/scripts/* /var/www/html/BelizeSolarProject/scripts/ -r
+	
 
 	@echo "\n\nCurrent contents of your project directory: "
 	ls -la /var/www/html/BelizeSolarProject/
