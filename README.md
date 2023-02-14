@@ -1,3 +1,4 @@
+![alt text](https://github.com/GrantCulbertson/BelizeSolarProject/blob/main/public/images/logo.png)
 # BelizeSolarProject
 
 A website to monitor Solar Data from schools in Belize. 
