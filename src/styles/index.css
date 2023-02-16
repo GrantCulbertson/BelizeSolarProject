@@ -1,3 +1,33 @@
+body {
+        background-color: FloralWhite;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:100%;
+        background-attachment: fixed;
+	font-family: "Helvetica", Sans-Serif;
+	
+ }
 h1 {
-    font-size: 5em;
+	text-align: center;
+	color: white;
+	font-size: 5em;
+}
+h4 {
+	text-align: left;
+	color: black;
+	font-size: 
+}
+p {
+	text-align: left;
+	color: black;
+	font-size: 
+}
+footer {
+	color: black;
+	border
+	text-align: center;
+}
+p.footer {
+	border-style: double;
+	border-color: white;
 }
