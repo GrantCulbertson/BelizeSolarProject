@@ -13,21 +13,22 @@ h1 {
 	font-size: 5em;
 }
 h4 {
-	text-align: left;
-	color: black;
-	font-size: 
+	text-align: center;
+	color: white;
+	font-size: 2em;
 }
 p {
 	text-align: left;
-	color: black;
-	font-size: 
+	color: white; 
 }
 footer {
-	color: black;
-	border
+	background-color: white;
+	color: white;
 	text-align: center;
 }
-p.footer {
+p.double {
 	border-style: double;
-	border-color: white;
+	border-width: 3px;
+	border-color: black;
+	padding: 5px;
 }
