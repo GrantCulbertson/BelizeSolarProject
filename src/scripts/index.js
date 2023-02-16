@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // JavaScript for Solar Data Demo
 // Jim Skon, Kenyon College, 2023
 // Using https://github.com/chartjs/Chart.js
@@ -20,10 +19,6 @@ const QueryErr = '<p style="color:red">ErQuery failed';
 var siteMap = {};  // A global place to store MAC to School name map
 var summaryChart = 0;
 var summaryWhrChart = 0;
-=======
-// Scripting for Belize Solar Data Project Website
-
->>>>>>> 5f9f901 (Flesh out extra pages on the site and put final outline of image gallery)
 
 
 // Add an event listener for each item in the pull down menu
