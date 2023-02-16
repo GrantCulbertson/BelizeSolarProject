@@ -17,7 +17,7 @@ Out team will:
   - overall metrics on the entire system
 - a set of sub pages for each school
 
-Our pages must:
+Our pages must contain:
 - A line graph of for a schools output for the current day
 - A line graph of for a schools output for and selected date (you can use a bootstrap date selector)
 - A composit line graph showing ALL the schools, with a different color line for each school, for the current day.
