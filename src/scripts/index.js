@@ -2,6 +2,7 @@
 // Jim Skon, Kenyon College, 2023
 // Using https://github.com/chartjs/Chart.js
 // https://docs.google.com/document/d/1pqFQTzzB-4UMoq2QJ0riP21jfa7wyFhNyYf97Hwgo0Y/edit
+
 const Url="http://belize.expertlearningsystem.org/Knowledge/?SessionID=1234567890:9999";
 const Sites="&Query=SolarNames()";
 const Watts="&Query=SolarWatts(";
@@ -14,8 +15,9 @@ const SolarWattsAllDayAllSites="&Query=SolarWattsAllDayAllSites(%DATE%*)";
 // &Query=SolarHistory(8B0AB1,qWattsmin1,2023-02-02*)
 // &Query=SolarHistory(SITE,qWattsmin1,DATE*)
 console.log("Start!");
+
 const ErrSrv = '<p style="color:red">Error reading from server';
-const QueryErr = '<p style="color:red">ErQuery failed';
+const QueryErr = '<p style="color:red">Err Query failed';
 var siteMap = {};  // A global place to store MAC to School name map
 var summaryChart = 0;
 var summaryWhrChart = 0;
@@ -23,27 +25,28 @@ var summaryWhrChart = 0;
 
 // Add an event listener for each item in the pull down menu
 function updateSiteList() {
-document.querySelectorAll('.dropdown-menu a').forEach(item => {
-    item.addEventListener('click', event => {
-		var element = event.target;
-		var site=element.textContent;
+	document.querySelectorAll('.dropdown-menu a').forEach(item => {
+		item.addEventListener('click', event => {
+			var element = event.target;
+			var site=element.textContent;
 
-		siteMAC = element.getAttribute("value");
-		console.log("pick: "+site+" "+siteMAC);
-		// Get the pulldown parent
-		var pullDown = element.parentElement.parentElement;
-		// Get and set the selection displayed
-		var selection = pullDown.querySelectorAll(".selection")[0];
-		selection.innerHTML = site;
-		if (site == "All") {
-			getSitesWatts();
-			return;
-		}
-		getSiteInfo(siteMAC);
-		
-    })
-})
+			siteMAC = element.getAttribute("value");
+			console.log("pick: "+site+" "+siteMAC);
+			// Get the pulldown parent
+			var pullDown = element.parentElement.parentElement;
+			// Get and set the selection displayed
+			var selection = pullDown.querySelectorAll(".selection")[0];
+			selection.innerHTML = site;
+			if (site == "All") {
+				getSitesWatts();
+				return;
+			}
+			getSiteInfo(siteMAC);
+			
+		})
+	})
 }
+
 // Start things off by getting site list information
 getSites();
 
